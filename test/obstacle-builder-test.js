@@ -25,17 +25,4 @@ describe('Obstacle Builder', function(){
       assert(cube.loc.equals(center));
     });
   });
-
-  context('builds bullets', function() {
-    var builder = new ObstacleBuilder();
-    it('constructs a bullet', function(){
-      var loc = new Vector(0,0,0);
-      var head = new Vector(0,1,0);
-      var u = new Vector(0,0,1);
-      var bullet = builder.bulletObstacle(loc, head, u);
-
-      assert(bullet instanceof Obstacle);
-      assert(bullet.loc.equals(loc));
-    });
-  });
 });
