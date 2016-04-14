@@ -18,4 +18,4 @@ Once the server is running, you can visit:
 
 * `http://localhost:8080/webpack-dev-server/index.html` to run your application.
 
-To build the static files:
+* `http://localhost:8080/webpack-dev-server/test.html` to run your test suite in the browser.
