@@ -35,3 +35,6 @@ Basic Controls:
   - L - Rotate up
   - K - Roll left
   - ; - Roll right
+
+#### Points and Edges Rendered
+![](http://recordit.co/jq0tjTwPFX.gif)
